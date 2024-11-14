@@ -5,7 +5,7 @@ class Main
     public static void main(String args[])
     {
        // finding the second largest element in the array
-        // naive solution O(n^2)
+        // naive solution we are traversing the array two times.
        // int[] arr={10,10,10};
         int[] arr={10,20,30,40,50};
         int largest=firstLargest(arr);
